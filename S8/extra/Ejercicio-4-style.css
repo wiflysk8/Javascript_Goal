@@ -1,0 +1,70 @@
+body{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div__planets{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 800px;
+    margin: 20px;
+}
+ 
+
+
+.div__characters{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+.character__img{
+    width: 150px;
+    height: 350px;
+}
+
+img{    
+    width: 400px;
+    height: 400px;
+}
+
+
+h2{
+    color:green;
+    font-size: 30px;
+}
+
+h3{
+    margin-top: 60px;
+    color:rgb(122, 72, 72)
+}
+
+button{
+    position: absolute;
+    top: 53%;
+    width: 200px;
+    height: 20px;
+    padding-bottom: 20px;
+}
+
+input{
+    border: 1px solid green;
+    position: absolute;
+    top: 48%;
+    width: 200px;
+    height: 20px;
+    margin: 20px;
+}
+
